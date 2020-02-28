@@ -1,7 +1,14 @@
 # 简版EPC SDK开发文档
-
+[![](https://jitpack.io/v/tudahua/simple-epc.svg)](https://jitpack.io/#tudahua/simple-epc)
 * build.gradle设置 
-
+```
+allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
+```
  ```
   implementation 'com.qixiubao:simple-epc:1.0.1'
   ```
