@@ -2,11 +2,10 @@
 * build.gradle设置 
 ```
 allprojects {
-		repositories {
-			...
-			maven { url "https://raw.githubusercontent.com/tudahua/simple-epc/master" }
-		}
-	}
+    repositories {
+        maven { url "https://raw.githubusercontent.com/tudahua/simple-epc/master" }
+    }
+}
 ```
  ```
   implementation 'com.qixiubao:simple-epc:1.0.2'
