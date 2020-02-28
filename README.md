@@ -10,7 +10,7 @@ allprojects {
 	}
 ```
  ```
-  implementation 'com.qixiubao:simple-epc:1.0.1'
+  implementation 'com.github.tudahua:simple-epc:1.0.2'
   ```
 
 
