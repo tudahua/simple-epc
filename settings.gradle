@@ -1,1 +1,1 @@
-include ':app', ':simple-epc'
+include ':app'
