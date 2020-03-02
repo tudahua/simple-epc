@@ -30,7 +30,7 @@ dependencies {
     implementation 'com.squareup.okhttp3:logging-interceptor:3.9.0'
     implementation 'com.github.bumptech.glide:glide:3.7.0'
 //    implementation project(':simple-epc')
-    implementation 'com.qixiubao:simple-epc:1.0.2'
+    implementation 'com.qixiubao:simple-epc:1.0.3'
 }
 
 
