@@ -11,7 +11,7 @@ allprojects {
 }
 ```
  ```
-  implementation 'com.qixiubao:simple-epc:1.0.2'
+  implementation 'com.qixiubao:simple-epc:1.0.3'
   ```
 
 
