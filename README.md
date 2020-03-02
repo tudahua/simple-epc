@@ -3,6 +3,9 @@
 ```
 allprojects {
     repositories {
+        flatDir {
+                    dirs 'libs'
+                }
         maven { url "https://raw.githubusercontent.com/tudahua/simple-epc/master" }
     }
 }

@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
         ApiServiceDelegate.init(this, "53652a26d4a8db783b5b0a7736e23033", "839f3235ba41946d8a3ee33bce4124ea", true);
         final RequireData requireData = new RequireData();
         //0:BSM 模式 1：EPC模式
-        requireData.type = 0;
+        requireData.type = 1;
         requireData.brand_id = 14;
         requireData.model_id = 7252;
         requireData.epc_id = 1014;
