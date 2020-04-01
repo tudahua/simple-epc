@@ -14,7 +14,6 @@ import com.simpleepc.api.ApiServiceDelegate;
 import com.simpleepc.model.RequireData;
 import com.simpleepc.model.SimpleEpcDetail;
 import com.simpleepc.ui.SimpleEpcCatalogActivity;
-import com.simpleepc.utils.StatusBarUtil;
 
 /**
  * @author tudahua
@@ -26,8 +25,6 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        StatusBarUtil.setStatusBarColor(this, Color.WHITE);
-        StatusBarUtil.StatusBarLightMode(this);
         setContentView(R.layout.activity_main);
         //初始化appId和secret
         ApiServiceDelegate.init(this, "53652a26d4a8db783b5b0a7736e23033", "839f3235ba41946d8a3ee33bce4124ea", true);
